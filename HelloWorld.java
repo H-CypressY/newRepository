@@ -9,8 +9,9 @@ public class HelloWorldOne {
 		for (int i = 0; i < nums.length; i++) {
             // 产生10以内的随机数
 			int x =(int)(Math.random()*10); 
-            
+            		
 			nums[i] = x;// 为元素赋值
+			System.out.print(nums[i] + " ");
 			//System.out.print(nums[i] + " ");
 		}
         
